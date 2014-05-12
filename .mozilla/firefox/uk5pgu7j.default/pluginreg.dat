@@ -1,0 +1,88 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.16:$
+Arch:x86-gcc3:$
+
+[PLUGINS]
+librhythmbox-itms-detection-plugin.so:$
+/usr/lib/mozilla/plugins/librhythmbox-itms-detection-plugin.so:$
+:$
+1396551474000:0:0:$
+This plug-in detects the presence of iTunes when opening iTunes Store URLs in a web page with Firefox.:$
+iTunes Application Detector:$
+1
+0:application/itunes-plugin:::$
+libtotem-gmp-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-gmp-plugin.so:$
+:$
+1396360036000:0:0:$
+The <a href="http://www.gnome.org/">Videos</a> 3.10.1 plugin handles video and audio streams.:$
+Windows Media Player Plug-in 10 (compatible; Videos):$
+13
+0:application/x-mplayer2:vidéo AVI:avi, wma, wmv:$
+1:video/x-ms-asf-plugin:vidéo ASF:asf, wmv:$
+2:video/x-msvideo:vidéo AVI:asf, wmv:$
+3:video/x-ms-asf:vidéo ASF:asf:$
+4:video/x-ms-wmv:vidéo Windows Media:wmv:$
+5:video/x-wmv:vidéo Windows Media:wmv:$
+6:video/x-ms-wvx:vidéo Windows Media:wmv:$
+7:video/x-ms-wm:vidéo Windows Media:wmv:$
+8:video/x-ms-wmp:vidéo Windows Media:wmv:$
+9:application/x-ms-wms:vidéo Windows Media:wms:$
+10:application/x-ms-wmp:vidéo Windows Media:wmp:$
+11:application/asx:liste de lecture Microsoft ASX:asx:$
+12:audio/x-ms-wma:audio Windows Media:wma:$
+libtotem-narrowspace-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-narrowspace-plugin.so:$
+:$
+1396360036000:0:0:$
+The <a href="http://www.gnome.org/">Videos</a> 3.10.1 plugin handles video and audio streams.:$
+QuickTime Plug-in 7.6.6:$
+6
+0:video/quicktime:vidéo QuickTime:mov:$
+1:video/mp4:vidéo MPEG-4:mp4:$
+2:image/x-macpaint:image matricielle MacPaint:pntg:$
+3:image/x-quicktime:dessin Macintosh Quickdraw/PICT:pict, pict1, pict2:$
+4:video/x-m4v:vidéo MPEG-4:m4v:$
+5:application/vnd.apple.mpegurl:liste de lecture de flux HTTP Live:m3u8:$
+libtotem-cone-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-cone-plugin.so:$
+:$
+1396360036000:0:0:$
+The <a href="http://www.gnome.org/">Videos</a> 3.10.1 plugin handles video and audio streams.:$
+VLC Multimedia Plugin (compatible Videos 3.10.1):$
+23
+0:application/x-vlc-plugin:VLC Multimedia Plugin::$
+1:application/vlc:VLC Multimedia Plugin::$
+2:video/x-google-vlc-plugin:VLC Multimedia Plugin::$
+3:application/x-ogg:fichier multimédia Ogg:ogg:$
+4:application/ogg:fichier multimédia Ogg:ogg:$
+5:audio/ogg:audio Ogg:oga:$
+6:audio/x-ogg:audio Ogg:ogg:$
+7:audio/x-vorbis+ogg:audio Ogg Vorbis:ogg:$
+8:video/ogg:vidéo Ogg:ogv:$
+9:video/x-ogg:vidéo Ogg:ogg:$
+10:video/x-theora+ogg:vidéo Ogg Theora:ogg:$
+11:application/annodex:format d'échange Annodex:anx:$
+12:audio/annodex:audio Annodex:axa:$
+13:video/annodex:vidéo Annodex:axv:$
+14:video/mpeg:vidéo MPEG:mpg, mpeg, mpe:$
+15:audio/wav:audio WAV:wav:$
+16:audio/x-wav:audio WAV:wav:$
+17:audio/mpeg:audio MP3:mp3:$
+18:application/x-nsv-vp3-mp3:vidéo NullSoft:nsv:$
+19:video/flv:vidéo Flash:flv:$
+20:video/webm:vidéo WebM:webm:$
+21:application/x-totem-plugin:Videos multimedia plugin::$
+22:audio/midi:audio MIDI:mid, midi:$
+libtotem-mully-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-mully-plugin.so:$
+:$
+1396360036000:0:0:$
+DivX Web Player version 1.4.0.233:$
+DivX® Web Player:$
+1
+0:video/divx:vidéo AVI:divx:$
+
+[INVALID]

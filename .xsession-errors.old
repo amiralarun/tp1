@@ -1,0 +1,18 @@
+libGL error: pci id for fd 4: 80ee:beef, driver (null)
+OpenGL Warning: Failed to connect to host. Make sure 3D acceleration is enabled for this VM.
+libGL error: core dri or dri2 extension not found
+libGL error: failed to load driver: vboxvideo
+Script for ibus started at run_im.
+Script for auto started at run_im.
+Script for default started at run_im.
+init: Le processus unity-settings-daemon main s'est achevé, redémarrage
+init: Le processus indicator-bluetooth main (2069) a été tué par le signal TERM
+init: Le processus indicator-datetime main (2073) a été tué par le signal TERM
+init: Le processus indicator-printers main (2081) a été tué par le signal TERM
+init: Le processus indicator-session main (2090) a été tué par le signal TERM
+init: Le processus unity-settings-daemon main (3335) a été tué par le signal TERM
+init: Disconnected from notified D-Bus bus
+init: Le processus indicator-application main (2091) a été tué par le signal TERM
+init: Le processus indicator-power main (2071) a été tué par le signal TERM
+init: Le processus unity-panel-service main (1981) s'est achevé avec l'état 1
+init: Le processus gnome-session (Unity) main (1979) s'est achevé avec l'état 1

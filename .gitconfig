@@ -1,0 +1,5 @@
+[user]
+	name = arun
+	mail = arunap@hotmail.fr
+[credential]
+	helper = cache --timeout=3600

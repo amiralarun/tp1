@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub:Help" />
+  <title>Set Up Git &middot; GitHub Help</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link href="/assets/help/application-f2e6fd72da4777d4e99c789ec0f0f7d1.css" media="screen" rel="stylesheet" />
+  <!--[if lt IE 8]>
+    <link href="/assets/help/ie-hacks-78b16775afcf4560117bf0fa7580a991.css" media="screen" rel="stylesheet" />
+  <![endif]-->
+
+  <script src="/assets/help/application-ddc8733cbbf1a586a5766ef091a4131f.js"></script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="2hCmLohPX02053IZp2t7bXTPSXXf9pGWKtzMKRXxFgc=" name="csrf-token" />
+</head>
+
+<body class=" platform-linux" id="com">
+<div id="not-footer">
+  <div id="header">
+    <div class="clearfix">
+        <h1 class="site-logo"><a href="/">GitHub Help</a></h1>
+
+      <ul class="top-nav">
+        <li><a href="https://github.com/contact">Contact Support</a></li>
+        <li><a href="http://www.github.com/">Return to GitHub</a></li>
+
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div id="content-wrapper">
+    <div class="site">
+
+      <div class="content-header small">
+  <h6 class="breadcrumbs">
+    <a href="/categories/54/articles">Bootcamp</a>
+    /
+    Set Up Git
+  </h6>
+
+  <div class="search-form small">
+    <form accept-charset="UTF-8" action="/articles/search" id="articles-search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <div class="outer">
+    <div class="inner fade-label">
+      <input type="text" name="q" id="q" class="js-articles-quicksearch"
+        placeholder="How can we help?" data-url="/articles/quicksearch" />
+      <button><span class="mini-icon search-input"></span>Search</button>
+      <div class="autocomplete-results" style="display: none"></div>
+    </div>
+  </div>
+</form>
+  </div>
+
+  <span class="last-updated-at">Article last updated on 09-May-14</span>
+</div>
+
+<div class="article">
+  <h2>Set Up Git</h2>
+
+  <div id="article-platform-nav">
+    <ul>
+        <li class="platform-mac">
+          <a href="#platform-mac" data-platform=mac>
+            mac
+          </a>
+        </li>
+        <li class="platform-windows">
+          <a href="#platform-windows" data-platform=windows>
+            windows
+          </a>
+        </li>
+        <li class="platform-linux">
+          <a href="#platform-linux" data-platform=linux>
+            linux
+          </a>
+        </li>
+        <li class="platform-all">
+          <a href="#platform-all" data-platform=all>
+            all
+          </a>
+        </li>
+    </ul>
+  </div>
+
+  <div class="article-body content-body wikistyle markdown-format">
+      <div class="platform-mac">
+
+<div class="native-download">
+<p><span class="mega-icon megaphone"></span><span>Forget the terminal. Download our native app instead.</span></p>
+<a href="https://mac.github.com" class="classy button orange">Download GitHub for Mac</a>
+</div>
+
+</div>
+
+<div class="platform-windows">
+
+<div class="native-download">
+<p><span class="mega-icon megaphone"></span><span>Skip the guide. Download our native app instead.</span></p>
+<a href="https://windows.github.com" class="classy button primary">Download GitHub for Windows</a>
+</div>
+
+</div>
+
+<div class="intro">
+
+<p>If you've found yourself on this page, we're assuming you're brand new to Git and GitHub. This guide will walk you through the basics and explain a little bit about how everything works along the way.</p>
+
+</div>
+
+<h3>
+<a name="download-and-install-git" class="anchor" href="#download-and-install-git"><span class="mini-icon mini-icon-link"></span></a>Download and Install Git</h3>
+
+<p>At the heart of GitHub is an open source version control system (VCS) called Git*. Created by the same team that created Linux, Git is responsible for everything GitHub related that happens locally on your computer.</p>
+
+<p><em>*If you don't already know what Git is, <a href="http://git-scm.com/book/en/Getting-Started-Git-Basics">take a crash course.</a></em></p>
+
+<div class="platform-mac">
+
+<h4>
+<a name="download-and-install-the-latest-version-of-git" class="anchor" href="#download-and-install-the-latest-version-of-git"><span class="mini-icon mini-icon-link"></span></a>Download and install <a href="http://git-scm.com/downloads">the latest version of Git</a>.</h4>
+
+<div class="alert tip">
+
+<p><strong>Tip</strong>: Git won't add an icon to your dock, it's not that sort of application.</p>
+
+</div>
+
+</div>
+
+<div class="platform-windows">
+
+<h4>
+<a name="download-and-install-the-latest-version-of-git-1" class="anchor" href="#download-and-install-the-latest-version-of-git-1"><span class="mini-icon mini-icon-link"></span></a>Download and install <a href="http://git-scm.com/downloads">the latest version of Git</a>.</h4>
+
+<p>Use the default options for each step.</p>
+
+<div class="alert warning">
+
+<p><strong>Warning</strong>: Do not use PuTTY if you are given the option. GitHub only provides support for openssh.</p>
+
+</div>
+
+<div class="helper">
+<h4 class="header">
+<a name="not-sure-what-to-pick-on-each-screen" class="anchor" href="#not-sure-what-to-pick-on-each-screen"><span class="mini-icon mini-icon-link"></span></a><a href="#">Not sure what to pick on each screen?</a>
+</h4>
+<div class="content"><p><img src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_install_1.jpg" alt="Welcome page"><img src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_install_2.jpg" alt="Information"><img src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_install_3.jpg" alt="Select destination location"><img src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_install_4.jpg" alt="Select start menu folder"><img src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_install_5.jpg" alt="Select components"><img src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_install_6.jpg" alt="Adjusting your PATH environment"><img src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_install_7.jpg" alt="Configuring the line ending conversions"><img src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_install_8.jpg" alt="Installing"><img src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_install_9.jpg" alt="Installation complete"></p></div>
+</div>
+
+</div>
+
+<div class="platform-linux">
+
+<h4>
+<a name="download-and-install-the-latest-version-of-git-2" class="anchor" href="#download-and-install-the-latest-version-of-git-2"><span class="mini-icon mini-icon-link"></span></a>Download and install <a href="http://git-scm.com/downloads">the latest version of Git</a>.</h4>
+
+<div class="alert tip">
+
+<p><strong>Tip</strong>: Git won't add an icon anywhere, it's not that sort of application.</p>
+
+</div>
+
+</div>
+
+<div class="platform-all">
+
+<h4>
+<a name="download-and-install-the-latest-version-of-git-3" class="anchor" href="#download-and-install-the-latest-version-of-git-3"><span class="mini-icon mini-icon-link"></span></a>Download and install <a href="http://git-scm.com/downloads">the latest version of Git</a>.</h4>
+
+<div class="alert tip">
+
+<p><strong>Tip</strong>: Git won't add an icon anywhere, it's not that sort of application.</p>
+
+</div>
+
+</div>
+
+<h3>
+<a name="set-up-git" class="anchor" href="#set-up-git"><span class="mini-icon mini-icon-link"></span></a>Set Up Git</h3>
+
+<div class="platform-mac">
+
+<p>Now that you have Git installed, it's time to configure your settings.  To do this you need to open the Terminal.</p>
+
+</div>
+
+<div class="platform-windows">
+
+<p>Now that you have Git installed, it's time to configure your settings.  To do this you need to open Git Bash (not the Windows command line).</p>
+
+</div>
+
+<div class="platform-linux">
+
+<p>Now that you have Git installed, it's time to configure your settings.  To do this you need to open an app called Terminal.</p>
+
+</div>
+
+<div class="platform-all">
+
+<p>Now that you have Git installed, it's time to configure your settings.  To do this you need to open the command line.</p>
+
+</div>
+
+<div class="helper">
+<h4 class="header">
+<a name="need-a-quick-lesson-about-terminalterminalgit-bashthe-command-line" class="anchor" href="#need-a-quick-lesson-about-terminalterminalgit-bashthe-command-line"><span class="mini-icon mini-icon-link"></span></a><a href="#">Need a quick lesson about <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span><span class="platform-all">the command line</span>?</a>
+</h4>
+<div class="content">
+<p>Code blocks like those on this page are part of a scripting language called Bash. To use Bash scripts, we need to use an application that
+<span class="platform-mac">comes with your Mac called Terminal, usually found at /Applications/Utilities. <img alt="Open Terminal" src="https://github.s3.amazonaws.com/docs/bootcamp_1_mac_terminal.jpg"></span>
+<span class="platform-windows">was installed with Git called Git Bash. Git Bash can be found in the start menu under "Git".<img alt="Open Git Bash" src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_gitbash.jpg"></span>
+<span class="platform-linux">comes with Linux called Terminal. <img alt="Open the terminal" src="https://github.s3.amazonaws.com/docs/bootcamp_1_linux_terminal.jpg"></span>
+<span class="platform-all">comes with your OS called the command line.</span>
+</p>
+
+<h4>
+<a name="input" class="anchor" href="#input"><span class="mini-icon mini-icon-link"></span></a>Input</h4>
+
+<pre class="command-line">
+<span class="command">echo 'This is input text'</span>
+<span class="comment"># This tooltip tells you what's going on.</span>
+</pre>
+
+
+<p>A line that begins with the dollar sign ($) indicates a line of Bash script you need to type. To enter it, type the text that follows the $, hitting the return key at the end of each line. You can hover your mouse over each line for an explanation of what the script is doing.</p>
+
+<h4>
+<a name="output" class="anchor" href="#output"><span class="mini-icon mini-icon-link"></span></a>Output</h4>
+
+<pre class="command-line">
+<span class="output"><span># </span>This is output text.</span>
+</pre>
+
+
+<p>A line that does not begin with a $ is output text that is intended to give you information or tell you what to do next. We've colored output text green in these bootcamp tutorials.</p>
+
+<h4>
+<a name="user-specific-input" class="anchor" href="#user-specific-input"><span class="mini-icon mini-icon-link"></span></a>User Specific Input</h4>
+
+<pre class="command-line">
+<span class="command">echo '<em>username</em>'</span>
+<span class="comment"># Outputs the text in the quotation marks.</span>
+</pre>
+
+
+<p>Areas of yellow text represent your own personal info, repos, etc. If it is part of an input ($) line, you should replace it with your own info when you type it. If it is part of output text, it is just for your reference. It will automatically show your own info in <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span><span class="platform-all">the command line</span>.</p>
+
+<blockquote>
+<strong>Good to know</strong>: There will be times when you type code, hit return, and all you are given is another prompt. Some actions that you execute in <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span><span class="platform-all">the command line</span> don't have any output. Don't worry, if there is ever a problem with your code, <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span><span class="platform-all">the command line</span> will let you know.</blockquote>
+
+<blockquote>
+<strong>Good to know</strong>: For security reasons, <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span><span class="platform-all">the command line</span> will not display what you type when entering passwords. Just type your password and hit the return key.</blockquote>
+</div>
+</div>
+
+<h4>
+<a name="username" class="anchor" href="#username"><span class="mini-icon mini-icon-link"></span></a>Username</h4>
+
+<p>First, tell Git your name so your commits will be properly labeled.</p>
+
+<pre class="command-line">
+<span class="command">git config --global user.name "<em>Your Name Here</em>"</span>
+<span class="comment"># Sets the default name for Git to use when you commit</span>
+</pre>
+
+<h4>
+<a name="email" class="anchor" href="#email"><span class="mini-icon mini-icon-link"></span></a>Email</h4>
+
+<p>Git saves your email address into the commits you make. We use the email address to associate your commits with your GitHub account.</p>
+
+<pre class="command-line">
+<span class="command">git config --global user.email "<em>your_email@example.com</em>"</span>
+<span class="comment"># Sets the default email for git to use when you commit</span>
+</pre>
+
+<p>Your email address for Git should be the same one associated with your GitHub account. If it is not, see "<a href="/articles/changing-your-primary-email-address">Changing your primary email address</a>". To keep your email address hidden, see "<a href="/articles/keeping-your-email-address-private">Keeping your email address private</a>".</p>
+
+<div class="helper">
+<h4 class="header">
+<a name="overriding-settings-in-individual-repos" class="anchor" href="#overriding-settings-in-individual-repos"><span class="mini-icon mini-icon-link"></span></a><a href="#">Overriding settings in individual repos</a>
+</h4>
+<div class="content">
+<p>
+  The steps listed above show you how to set your user info globally. This means that no matter which repository you work in on your computer, you'll be making commits as that user. If you find yourself needing to make commits with different user info for a specific repository (perhaps for work vs. personal projects), you will have to change the info in that repository itself.
+</p>
+
+<pre class="command-line">
+<span class="command">cd <em>my_other_repo</em></span>
+<span class="comment"># Changes the working directory to the repository you need to switch info for</span>
+<span class="command">git config user.name "<em>Different Name</em>"</span>
+<span class="comment"># Sets the user's name for this specific repository</span>
+<span class="command">git config user.email "<em>differentemail@email.com</em>"</span>
+<span class="comment"># Sets the user's email for this specific repository</span>
+</pre>
+
+
+<p>
+  Now your commits will be "blamed" on (associated with) the new username and email whenever working in the specified repository.
+</p>
+</div>
+</div>
+
+<h4 id="password-caching">
+<a name="password-caching" class="anchor" href="#password-caching"><span class="mini-icon mini-icon-link"></span></a>Password caching</h4>
+
+<p>The last option you set will tell Git that you don't want to type your username and password every time your computer talks to GitHub.</p>
+
+<div class="alert tip">
+
+<p><strong>Tips</strong>:</p>
+
+<ul>
+<li>You need Git <strong>1.7.10</strong> or newer to use the credential helper.</li>
+<li>The credential helper only works when you <a href="/articles/which-remote-url-should-i-use">clone a GitHub repository</a> using an HTTPS URL. If you clone GitHub repositories using SSH, then you authenticate using SSH keys instead of a username and password. For help setting up an SSH connection, see <a href="/articles/generating-ssh-keys">Generating SSH Keys</a>.</li>
+</ul>
+</div>
+
+<div class="platform-mac">
+
+<p>To use this option, you need to install the osxkeychain credential helper and tell Git to use it. If you installed Git using <a href="http://brew.sh/">Homebrew</a>, the osxkeychain helper may already be installed.</p>
+
+<p>To find out if the osxkeychain credential helper is already installed, try to run it:</p>
+
+<pre class="command-line">
+<span class="command">git credential-osxkeychain</span>
+<span class="comment"># Test for the cred helper</span>
+<span class="output"><span># </span>Usage: git credential-osxkeychain &lt;get|store|erase&gt;</span>
+</pre>
+
+<p>If you do not have the osxkeychain helper, download it with curl:</p>
+
+<pre class="command-line">
+<span class="command">git credential-osxkeychain</span>
+<span class="comment"># Test for the cred helper</span>
+<span class="output"><span># </span>git: 'credential-osxkeychain' is not a git command. See 'git --help'.</span>
+
+<span class="command">curl -s -O \</span>
+  https://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
+<span class="comment"># Download the helper</span>
+
+<span class="command">chmod u+x git-credential-osxkeychain</span>
+<span class="comment"># Fix the permissions on the file so it can be run</span>
+</pre>
+
+<p>Now, install the helper into the same directory where Git itself is installed:</p>
+
+<pre class="command-line">
+<span class="command">sudo mv git-credential-osxkeychain \</span>
+  "$(dirname $(which git))/git-credential-osxkeychain"
+<span class="comment"># Move the helper to the path where git is installed</span>
+<span class="output"><span># </span>Password: <em>[enter your password]</em></span>
+</pre>
+
+<p>Finally, tell Git to use osxkeychain using the global <code>credential.helper</code> config:</p>
+
+<pre class="command-line">
+<span class="command">git config --global credential.helper osxkeychain</span>
+<span class="comment"># Set git to use the osxkeychain credential helper</span>
+</pre>
+
+<p>The next time you clone an HTTPS URL that requires a password, you'll be prompted for your username and password, and to grant access to the OSX keychain.  After you've done this, the username and password are stored in your keychain and you won't be required to type them in to Git again.</p>
+
+</div>
+
+<div class="platform-windows">
+
+<p>To use this option, you need install a credential helper.</p>
+
+<p><a href="https://github-windows.s3.amazonaws.com/GitHubSetup.exe">GitHub for Windows</a> includes this helper, and provides a Git shell so you don't need to install and configure Git manually.</p>
+
+</div>
+
+<div class="platform-linux">
+
+<p>To use this option, you need to turn on the credential helper so that Git will save your password in memory for some time:</p>
+
+<pre class="command-line">
+<span class="command">git config --global credential.helper cache</span>
+<span class="comment"># Set git to use the credential memory cache</span>
+</pre>
+
+<p>By default Git will cache your password for 15 minutes. You can change this if you like.</p>
+
+<pre class="command-line">
+<span class="command">git config --global credential.helper 'cache --timeout=3600'</span>
+<span class="comment"># Set the cache to timeout after 1 hour (setting is in seconds)</span>
+</pre>
+
+</div>
+
+<div class="platform-all">
+
+<p>To use this option, you need to turn on the credential helper so that Git will save your password in memory for some time:</p>
+
+<pre class="command-line">
+<span class="command">git config --global credential.helper cache</span>
+<span class="comment"># Set git to use the credential memory cache</span>
+</pre>
+
+<p>By default Git will cache your password for 15 minutes. You can change this if you like.</p>
+
+<pre class="command-line">
+<span class="command">git config --global credential.helper 'cache --timeout=3600'</span>
+<span class="comment"># Set the cache to timeout after 1 hour (setting is in seconds)</span>
+</pre>
+
+</div>
+
+<h3>
+<a name="celebrate" class="anchor" href="#celebrate"><span class="mini-icon mini-icon-link"></span></a>Celebrate</h3>
+
+<p>Congratulations, you now have Git and GitHub all set up! What do you want to do next?</p>
+
+<ul>
+<li><strong>Set Up Git</strong></li>
+<li><a href="/articles/create-a-repo">Create A Repository</a></li>
+<li><a href="/articles/fork-a-repo">Fork A Repository</a></li>
+<li><a href="/articles/be-social">Be Social</a></li>
+</ul>
+  </div>
+
+
+  <div class="support-footer">
+    <hr />
+    <ul class="article-footer button-nav">
+      <li>
+        <a class="minibutton mini-icon discussion" href="https://github.com/contact">contact a human</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+  <div id="footer">
+    <div class="inner">
+      <a href="https://github.com" class="invertocat">
+        <img src="/assets/help/invertocat-1264358d01ae6ae7a728f3c909f51c83.png" width="24" height="24" />
+      </a>
+      <p class="left">
+        &copy; <span id="year">year</span> GitHub Inc. All rights reserved.
+      </p>
+        <ul class="links right">
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/privacy-policy">Privacy</a></li>
+            <li><a href="/security">Security</a></li>
+          </ul>
+    </div>
+  </div> <!-- /#footer -->
+
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f4d4164f5a1f5651500026c');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3769691-27']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","5d46706dc7","1956352","TEINDQ8KRQgb",0,62807738,new Date().getTime(),"","","","",""]);</script></body>
+</html>
